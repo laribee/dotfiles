@@ -180,14 +180,6 @@ function _gco () {
 compctl -K _gco gco
 
 
-# cd to the default working directory from iterm
-function cdefault { 
-  export wdir=`/Users/ehrenmurdick/bin/iterm_default_wd`
-  cd $wdir 
-}
-
-cdefault
-
 function svn_new () {
   svn st | grep '^?' | awk '{print $2}'
 }
