@@ -1,4 +1,5 @@
 "imap ii <Esc>
+imap <D-i> <Esc>
 
 set autoindent
 set sw=2
@@ -65,7 +66,7 @@ map <S-Right> I  
 autocmd BufRead,BufNewFile *.rjs     set filetype=ruby
 autocmd BufRead,BufNewFile *.rxml    set filetype=ruby
 
-colors freya
+colors twilight2
 
 set suffixesadd=.rb
 set suffixesadd=.css
