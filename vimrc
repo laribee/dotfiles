@@ -1,6 +1,8 @@
 "imap ii <Esc>
 imap <D-i> <Esc>
 
+set directory=/tmp/
+
 set autoindent
 set sw=2
 
