@@ -136,7 +136,7 @@ alias ff='open -a FireFox'
 alias safari='open -a Safari'
 alias css='open -a CssEdit'
 
-function gvim { /Applications/MacVim.app/Contents/MacOS/Vim -g -p $* & } 
+alias gvim='mvim -p'
 
 compctl -g '*.(jpg|png|gif|tiff|jpeg|pdf)' preview
 compctl -g '*.psd' photoshop
@@ -169,6 +169,10 @@ bindkey "\e[2~" overwrite-mode		# Ins
 bindkey "\e[3~" delete-char		# Delete
 
 
+
+function grak {
+  mvim -p $(rak -l $@ | xargs)
+}
 
 function gco () {
   git co $*
