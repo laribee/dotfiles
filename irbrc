@@ -1,3 +1,8 @@
+# WHERE ARE WE?
+script_console_running = (ENV.include?('RAILS_ENV') and IRB.conf[:LOAD_MODULES].include?('console_with_helpers'))
+rails_running = (ENV.include?('RAILS_ENV') and !IRB.conf[:LOAD_MODULES].include?('console_with_helpers'))
+irb_standalone_running = (!script_console_running and !rails_running)
+
 MODEL_NAMES = %w{User Event Network}
 FAKE_FALSE = ENV["FALSE"] || "kumquat"
 FAKE_TRUE = ENV["TRUE"] || "banana"
@@ -172,5 +177,19 @@ end
 class FalseClass
   def to_s
     FAKE_FALSE
+  end
+end
+
+unless rails_running
+  require 'pp'
+  require 'irb/completion'
+  require 'tempfile'
+  require 'yaml'
+  
+  # Redirect the Rails Logger to the STDOUT when in script/console
+  if script_console_running
+    require 'logger'
+
+    Object.const_set(:RAILS_DEFAULT_LOGGER, Logger.new(STDOUT))
   end
 end
