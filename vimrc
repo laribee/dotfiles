@@ -145,6 +145,9 @@
 " convert curent word as symbol into a single quoted string
   map :' F:r'ea'<Esc>
 
+" delete all buffers
+  map :bda :1,9999bd
+
   ""Nice statusbar
   set laststatus=2
   set statusline=\ "
@@ -165,3 +168,7 @@
   " Turn off rails bits of statusbar
   let g:rails_statusline=0
 
+  " fuzzyfindertextmate: cmd-e to trigger, cmd-enter to open selected file in new tab
+  let g:FuzzyFinderOptions = { 'Base':{}, 'Buffer':{}, 'File':{}, 'Dir':{}, 'MruFile':{}, 'MruCmd':{}, 'FavFile':{}, 'Tag':{}, 'TaggedFile':{}}
+  let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
+  map <D-e> :FuzzyFinderTextMate<CR>
