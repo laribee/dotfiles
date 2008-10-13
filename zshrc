@@ -131,12 +131,12 @@ alias vim='vim -p'
 alias postgres_stop='pg_ctl -D ~/.pgdata stop'
 alias mysql='/opt/local/bin/mysql5 -u root --socket=/tmp/mysql.sock'
 alias mysqladmin='/opt/local/bin/mysqladmin5 -u root --socket=/tmp/mysql.sock'
-
 alias ff='open -a FireFox'
 alias safari='open -a Safari'
 alias css='open -a CssEdit'
-
 alias gvim='mvim -p'
+alias log='tail -f log/development.log'
+alias restart='touch tmp/restart.txt'
 
 compctl -g '*.(jpg|png|gif|tiff|jpeg|pdf)' preview
 compctl -g '*.psd' photoshop
