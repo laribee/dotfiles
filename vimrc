@@ -126,15 +126,6 @@
 " typing percent percent will print out the erb output characters and move the cusor after the equals sign
   imap %% <%=%><Left><Left>
 
-" make current word a symbol by prepending it with :
-  map :: bi:<Esc>
-
-" enclose curent word within double quotes
-  map "" bi"<Esc>ea"<Esc>
-
-" enclose curent word within single quotes
-  map '' bi'<Esc>ea'<Esc>
-
 " convert curent singly or double quoted word into to a symbol
   map ": bhr:elx
   map ': bhr:elx
@@ -172,3 +163,8 @@
   let g:FuzzyFinderOptions = { 'Base':{}, 'Buffer':{}, 'File':{}, 'Dir':{}, 'MruFile':{}, 'MruCmd':{}, 'FavFile':{}, 'Tag':{}, 'TaggedFile':{}}
   let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
   map <D-e> :FuzzyFinderTextMate<CR>
+  map :rescan :ruby finder.rescan!
+
+  " convert between symbols and strings
+  :map :to_s :s/\v:(\w+)/'\1'
+  :map :to_sym :s/\v(['"])(.{-})\1/:\2
