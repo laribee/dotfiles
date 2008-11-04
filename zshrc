@@ -133,10 +133,12 @@ alias mysql='/opt/local/bin/mysql5 -u root --socket=/tmp/mysql.sock'
 alias mysqladmin='/opt/local/bin/mysqladmin5 -u root --socket=/tmp/mysql.sock'
 alias ff='open -a FireFox'
 alias safari='open -a Safari'
+alias pv='open -a Plainview'
 alias css='open -a CssEdit'
 alias gvim='mvim -p'
 alias log='tail -f log/development.log'
 alias restart='touch tmp/restart.txt'
+alias ajaxrdoc="rdoc --fmt ajax --exclude '.*generator.*' --exclude '.*test.*' --exclude '.*spec.*'"
 
 compctl -g '*.(jpg|png|gif|tiff|jpeg|pdf)' preview
 compctl -g '*.psd' photoshop
