@@ -113,8 +113,11 @@
   :nmap ,sf :! script/spec %<cr>
   :nmap ,c  :! rake cruise<cr>  
 
-" exiting insert mode with command-i
+" exiting insert mode with cmd-i
   :imap <D-i> <esc>
+
+" redo with cmd-u
+  :map <D-u> :redo<cr>
 
 " easy wrap toggling
   :map <D-r> :set wrap<cr>
