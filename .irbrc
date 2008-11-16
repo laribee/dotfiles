@@ -58,5 +58,6 @@ def aorta!(obj)
 end
 
 if $0 == 'irb' && ENV['RAILS_ENV'] 
+  require 'logger'
   Object.const_set(:RAILS_DEFAULT_LOGGER, Logger.new(STDOUT))
 end
