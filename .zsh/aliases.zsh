@@ -10,6 +10,7 @@ alias restart='touch tmp/restart.txt'
 alias ajaxrdoc="rdoc --fmt ajax --exclude '.*generator.*' --exclude '.*test.*' --exclude '.*spec.*'"
 alias log='tail -f log/development.log'
 alias gvim='mvim -p'
+alias gitrm='git ls-files --deleted | xargs git rm'
 
 function grak {
   mvim -p $(rak -l $@ | xargs)
