@@ -12,7 +12,12 @@ alias log='tail -f log/development.log'
 alias gvim='mvim -p'
 alias gitrm='git ls-files --deleted | xargs git rm'
 
+# runs rak and opens all matching files in mvim
 function grak {
   mvim -p $(rak -l $@ | xargs)
 }
 
+# accepts a css file and compacts the delcarations to one line
+function css_compact {
+  cat $@ | css2sass | sass -t compact > $@
+}
