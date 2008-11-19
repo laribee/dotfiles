@@ -21,3 +21,8 @@ function grak {
 function css_compact {
   cat $@ | css2sass | sass -t compact > $@
 }
+
+# hamlizes whatever is on the clipboard
+function pbhaml {
+  pbpaste | html2haml | pbcopy
+}
