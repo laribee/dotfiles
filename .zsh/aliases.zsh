@@ -12,6 +12,7 @@ alias ajaxrdoc="rdoc --fmt ajax --exclude '.*generator.*' --exclude '.*test.*' -
 alias log='tail -f log/development.log'
 alias gvim='mvim -p'
 alias gitrm='git ls-files --deleted | xargs git rm'
+alias icons='cd ~/Pictures/icons; open -a Preview **/*.png **/*.tiff  **/*.jpg'
 
 # runs rak and opens all matching files in mvim
 function grak {
