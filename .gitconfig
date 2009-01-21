@@ -29,6 +29,8 @@
 	co = checkout
 	st = status
   ch = cherry -v origin
+  mine = log --author=Adam
+  week = log --author=Adam --since="1 week ago" --reverse
 [github]
 	user = adamlogic
 	token = 35647376b5bad04b2c078f1e2164bcb6
