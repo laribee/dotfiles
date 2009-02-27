@@ -47,3 +47,11 @@ if $0 == 'irb' && ENV['RAILS_ENV']
   require 'logger'
   Object.const_set(:RAILS_DEFAULT_LOGGER, Logger.new(STDOUT))
 end
+
+class Object
+  def my_methods(include_inherited = false)
+    ignored_methods = include_inherited ? Object.methods : self.class.superclass.instance_methods
+    (self.methods - ignored_methods).sort
+  end
+end
+
