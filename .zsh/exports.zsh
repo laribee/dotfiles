@@ -1,4 +1,5 @@
 export PATH=/opt/local/lib/postgresql83/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export CDPATH=:~/projects
 export RUBYOPT='rubygems -Itest'
 export GREP_OPTIONS='--color=auto' 
 export GREP_COLOR='3;33'
