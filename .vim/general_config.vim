@@ -11,7 +11,6 @@
 
 " Highlight matching parens
   set showmatch
-
   set completeopt=menu,preview
   
 " Use the tab complete menu
