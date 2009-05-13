@@ -14,6 +14,11 @@
   nmap gh h
   nmap gl l
 
+" ack for project-wide searching
+  nmap ga :Ack 
+  nmap gn :cnext<cr>
+  nmap gp :cprev<cr>
+
 " Fuzzy Finder - ,t to launch; ,b just for buffers; cmd-enter to open selected file in new tab
   let g:FuzzyFinderOptions = { 'Base':{} }
   let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
