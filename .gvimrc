@@ -3,3 +3,4 @@
   set guioptions-=m
   set guifont=Monaco:h14
   set lines=35 columns=120
+  set fuoptions=maxvert,maxhorz
