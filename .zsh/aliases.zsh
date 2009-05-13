@@ -16,9 +16,6 @@ alias icons='cd ~/Pictures/icons; open -a Preview **/*.png **/*.tiff  **/*.jpg'
 alias preview='open -a Preview'
 alias rebase='git fetch; git rebase origin/master'
 
-bindkey '^[[D' backward-word                      # option left
-bindkey '^[[C' forward-word                       # option right
-
 function gitdays {
   git log --author=Adam --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
 }
