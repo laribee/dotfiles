@@ -15,9 +15,10 @@
   nmap gl l
 
 " ack for project-wide searching
-  nmap ga :Ack 
-  nmap gn :cnext<cr>
-  nmap gp :cprev<cr>
+  nmap ga :LAck 
+  nmap gd :LAckAdd
+  nmap gn :lnext<cr>
+  nmap gp :lprev<cr>
 
 " Fuzzy Finder - ,t to launch; ,b just for buffers; cmd-enter to open selected file in new tab
   let g:FuzzyFinderOptions = { 'Base':{} }
