@@ -1,0 +1,11 @@
+--type-add=ruby=.haml,.rake,.rsel,.builder
+--type-add=html=.html.erb,.html.haml
+--type-add=js=.js.erb
+--type-add=css=.sass
+--type-set=cucumber=.feature
+
+--sort-files
+--color
+--follow
+--group
+--context=2
