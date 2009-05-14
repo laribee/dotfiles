@@ -6,5 +6,5 @@
   set nocompatible
   syntax on
   
-" make it pretty
-  colors twilight2
+" terminal-compatible colorscheme
+  colors ir_black

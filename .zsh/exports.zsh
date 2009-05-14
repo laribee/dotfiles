@@ -1,10 +1,7 @@
 export PATH=/usr/local/bin:/opt/local/lib/postgresql83/bin:/opt/local/bin:/opt/local/sbin:~/Library/bin:$PATH
 export CDPATH=:~/projects
 export RUBYOPT='rubygems -Itest'
-export GREP_OPTIONS='--color=auto' 
-export GREP_COLOR='3;33'
-export EDITOR="mvim --remote-tab-wait"
+export EDITOR="vim"
 export JAVA_HOME='/System/Library/Frameworks/JavaVM.framework/Home'
-export TERM=xterm-256color
-export LSCOLORS=gxfxcxdxbxegedabagacad
+export TERM=xterm-color
 export CLICOLOR=1
