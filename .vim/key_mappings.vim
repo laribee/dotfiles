@@ -20,6 +20,14 @@
   nmap gn :lnext<cr>
   nmap gp :lprev<cr>
 
+" scroll up/down one line at a time
+  nmap <Up> 
+  nmap <Down> 
+
+" page up/down half page at a time
+  nmap <S-Up> 
+  nmap <S-Down> 
+
 " Fuzzy Finder - ,t to launch; ,b just for buffers; cmd-enter to open selected file in new tab
   let g:FuzzyFinderOptions = { 'Base':{} }
   let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
