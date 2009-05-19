@@ -15,7 +15,7 @@
   nmap gl l
 
 " ack for project-wide searching
-  nmap ga :LAck 
+  nmap ga :tabe<cr>:LAck 
   nmap gA :LAckAdd 
   nmap gn :lnext<cr>
   nmap gp :lprev<cr>
