@@ -28,7 +28,7 @@
   nmap <S-Up> 
   nmap <S-Down> 
 
-" Fuzzy Finder - ,t to launch; ,b just for buffers; cmd-enter to open selected file in new tab
+" Fuzzy Finder - go to launch; gb just for buffers; cmd-enter to open selected file in new tab
   let g:FuzzyFinderOptions = { 'Base':{} }
   let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
   nmap go :FuzzyFinderTextMate<cr> 
