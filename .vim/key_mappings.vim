@@ -5,8 +5,8 @@
   nmap U :redo<cr>
 
 " easy wrap toggling
-  nmap gw :set wrap<cr>
-  nmap gW :set nowrap<cr>
+  nmap <Leader>w :set wrap<cr>
+  nmap <Leader>W :set nowrap<cr>
 
 " switch windows
   nmap gj j
@@ -14,9 +14,13 @@
   nmap gh h
   nmap gl l
 
+" previous/next buffer (for going without tabs)
+  nmap g[ :bp<cr>
+  nmap g] :bn<cr>
+
 " ack for project-wide searching
-  nmap ga :tabe<cr>:LAck 
-  nmap gA :LAckAdd 
+  nmap g/ :tabe<cr>:LAck 
+  nmap ga :LAckAdd 
   nmap gn :lnext<cr>
   nmap gp :lprev<cr>
 
@@ -24,15 +28,11 @@
   nmap <Up> 
   nmap <Down> 
 
-" page up/down half page at a time
-  nmap <S-Up> 
-  nmap <S-Down> 
-
 " Fuzzy Finder - go to launch; gb just for buffers; cmd-enter to open selected file in new tab
   let g:FuzzyFinderOptions = { 'Base':{} }
   let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
-  nmap go :FuzzyFinderTextMate<cr> 
-  nmap gb :FuzzyFinderBuffer<cr> 
-  nmap gs :ruby finder.rescan!<cr>
+  nmap <Leader>t :FuzzyFinderTextMate<cr> 
+  nmap <Leader>b :FuzzyFinderBuffer<cr> 
+  nmap <Leader>f :ruby finder.rescan!<cr>
   
 
