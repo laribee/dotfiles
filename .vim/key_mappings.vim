@@ -25,6 +25,10 @@
   nmap gn :lnext<cr>
   nmap gp :lprev<cr>
 
+" shortcuts for frequenly used files
+  nmap gs :tabe db/schema.rb<cr>
+  nmap gr :tabe config/routes.rb<cr>
+
 " scroll up/down one line at a time
   nmap <Up> 
   nmap <Down> 
