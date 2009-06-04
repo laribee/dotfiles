@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/opt/local/lib/postgresql83/bin:/opt/local/bin:/opt/local/sbin:~/Library/bin:$PATH
+export PATH=/usr/local/bin:/opt/local/lib/mysql5/bin:/opt/local/lib/postgresql83/bin:/opt/local/bin:/opt/local/sbin:~/Library/bin:$PATH
 export CDPATH=:~/projects
 export RUBYOPT='rubygems -Itest'
 export EDITOR="vim"
