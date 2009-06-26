@@ -20,11 +20,6 @@ function gitdays {
   git log --author=Adam --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
 }
 
-# runs rak and opens all matching files in mvim
-function grak {
-  mvim -p $(rak -l $@ | xargs)
-}
-
 # accepts a css file and compacts the delcarations to one line
 function css_compact {
   cat $@ | css2sass | sass -t compact > $@
@@ -33,4 +28,8 @@ function css_compact {
 # hamlizes whatever is on the clipboard
 function pbhaml {
   pbpaste | html2haml | pbcopy
+}
+
+function md {
+  markdown.pl $@ > /tmp/generated_by_markdown.html; open /tmp/generated_by_markdown.html
 }
