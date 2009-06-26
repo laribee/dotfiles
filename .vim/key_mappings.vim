@@ -29,6 +29,9 @@
   nmap gs :tabe db/schema.rb<cr>
   nmap gr :tabe config/routes.rb<cr>
 
+" align pipe-separated tables for cucumber or textile with g| in visual mode
+	vmap g\| :Align \|<cr>
+
 " scroll up/down one line at a time
   nmap <Up> 
   nmap <Down> 
