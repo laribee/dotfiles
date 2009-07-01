@@ -10,6 +10,7 @@
 --ignore-dir=doc
 --ignore-dir=coverage
 --ignore-dir=fixtures
+--ignore-dir=public/system
 
 --sort-files
 --color
