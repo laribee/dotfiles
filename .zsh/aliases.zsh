@@ -2,6 +2,7 @@
 alias ss='./script/server'
 alias ss1='./script/server -p 3001'
 alias sc='./script/console'
+alias sg='./script/generate'
 alias postgres_start='pg_ctl -D ~/.pgdata -l ~/.pgdata/psql.log start'
 alias postgres_stop='pg_ctl -D ~/.pgdata stop'
 alias mysql='/opt/local/bin/mysql5 -u root --socket=/tmp/mysql.sock'
