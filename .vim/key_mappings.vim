@@ -32,6 +32,10 @@
 " align pipe-separated tables for cucumber or textile with g| in visual mode
 	vmap g\| :Align \|<cr>
 
+" insert blank lines without going into insert mode
+  nmap go o<esc>
+  nmap gO O<esc>
+
 " scroll up/down one line at a time
   nmap <Up> 
   nmap <Down> 
