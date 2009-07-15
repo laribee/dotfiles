@@ -35,3 +35,5 @@
 	token = 35647376b5bad04b2c078f1e2164bcb6
 [diff "ruby"]
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
+[push]
+	default = matching
