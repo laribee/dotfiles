@@ -1,8 +1,8 @@
-# My config files. Booya
+# My config files
 
 ## Setup
 
-The following rake tasks will set up symbolic links in our home directory for each of the included configuration files.
+The following rake tasks will set up symbolic links in your home directory for each of the included configuration files.
 
     rake symlink
 
