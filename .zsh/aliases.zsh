@@ -10,9 +10,6 @@ alias ajaxrdoc="rdoc --fmt ajax --exclude '.*generator.*' --exclude '.*test.*' -
 alias devlog='tail -200 -f log/development.log'
 alias testlog='tail -200 -f log/test.log'
 alias gvim='mvim -p'
-alias gitrm='git ls-files --deleted | xargs git rm'
-alias icons='cd ~/Pictures/icons; open -a Preview **/*.png **/*.tiff  **/*.jpg'
-alias preview='open -a Preview'
 alias rebase='git fetch; git rebase origin/master'
 alias extip='curl icanhazip.com'
 
