@@ -2,6 +2,7 @@ export PATH=$PATH:/usr/local/bin:/usr/local/git/bin:/opt/local/lib/mysql5/bin:/o
 export CDPATH=:~/projects
 export RUBYOPT='rubygems -Itest'
 export EDITOR="vim"
+export VISUAL="mvim"
 export JAVA_HOME='/System/Library/Frameworks/JavaVM.framework/Home'
 export TERM=xterm-color
 export CLICOLOR=1
