@@ -44,7 +44,7 @@
   nmap <Left> zh
   nmap <Right> zl
 
-" Fuzzy Finder - go to launch; gb just for buffers; cmd-enter to open selected file in new tab
+" Fuzzy Finder - \t to launch; \b just for buffers; cmd-enter to open selected file in new tab
   let g:FuzzyFinderOptions = { 'Base':{} }
   let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
   nmap <Leader>t :FuzzyFinderTextMate<cr> 
