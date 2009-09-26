@@ -1,4 +1,6 @@
-" Textmate Fuzzy Finder ignores
+" Textmate Fuzzy Finder options
+  let g:FuzzyFinderOptions = { 'Base':{} }
+  let g:FuzzyFinderOptions.Base.key_open_tab = '<D-CR>'
   let g:fuzzy_ignore = "*.png;*.PNG;*.JPG;*.jpg;*.GIF;*.gif;doc/**;vendor/**;coverage/**;tmp/**"
   let g:fuzzy_matching_limit = 20
 
