@@ -8,11 +8,14 @@
   nmap <Leader>w :set wrap<cr>
   nmap <Leader>W :set nowrap<cr>
 
-" switch windows
+" switch windows with g+movement
   nmap gj j
   nmap gk k
   nmap gh h
   nmap gl l
+
+" swap windows
+  nmap gS 
 
 " close all other windows (in the current tab)
   nmap gW :only<cr>
