@@ -45,6 +45,9 @@
   nmap go o<esc>
   nmap gO O<esc>
 
+" open the source in a browser for distribution or copying as RTF
+  nmap gH :OpenHtml<cr>
+
 " scroll up/down one line at a time
   nmap <Up> 
   nmap <Down> 
