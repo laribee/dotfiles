@@ -1,6 +1,6 @@
 [user]
-	name = Adam McCrea
-	email = adam@adamlogic.com
+	name = David Laribee
+	email = laribee@gmail.com
 [color]
 	branch = auto
 	diff = auto
@@ -31,8 +31,8 @@
   ch = cherry -v origin
   mine = log --author=Adam
 [github]
-	user = adamlogic
-	token = 35647376b5bad04b2c078f1e2164bcb6
+	user = laribee
+	token = 
 [diff "ruby"]
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
 [push]

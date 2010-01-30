@@ -9,3 +9,5 @@ source ~/.zsh/history.zsh
 source ~/.zsh/set_options.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/aliases.zsh
+
+if [[ -s /Users/laribee/.rvm/scripts/rvm ]] ; then source /Users/laribee/.rvm/scripts/rvm ; fi
