@@ -14,10 +14,10 @@ alias extip='curl icanhazip.com'
 alias c="clear"
 alias b="cd -"
 alias h="cd ~"
-alias dir="ls -alF"
+alias dir="ls -aF"
 
 function gitdays {
-  git log --author=David --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
+  git log --author=laribee --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
 }
 
 # accepts a css file and compacts the delcarations to one line
