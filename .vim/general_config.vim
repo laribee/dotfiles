@@ -2,7 +2,8 @@
 
 " Set temporary directory (don't litter local dir with swp/tmp files)
   set directory=/tmp/
-
+  
+  set shell=/bin/zsh
 " have one hundred lines of command-line (etc) history:
   set history=100
 
