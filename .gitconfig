@@ -29,7 +29,8 @@
 	co = checkout
 	st = status
   ch = cherry -v origin
-  mine = log --author=Adam
+  br = branch -a
+  mine = log --author=David
 [github]
 	user = laribee
 	token = 
