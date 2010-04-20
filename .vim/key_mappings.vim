@@ -62,4 +62,4 @@
   nmap <Leader>f :ruby finder.rescan!<cr>
   
 " Make NERDTree a bit easier to get into
-  nmap nt NERDTree<cr>
+  cmap nt NERDTree<cr>
