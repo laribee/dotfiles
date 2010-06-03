@@ -12,7 +12,7 @@ namespace :symlink do
 end
 
 desc "adjust for Windows"
-task :windows do
+task :windows => 'symlink:force' do
 	system 'git config --global core.autocrlf true'
 	system 'git config --global gui.fontdiff "-family Consolas -size 12 -weight normal -slant roman -underline 0 -overstrike 0"'
 end
