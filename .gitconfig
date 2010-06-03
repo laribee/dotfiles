@@ -32,7 +32,8 @@
   prompt = false
   cmd = p4merge "$LOCAL" "$BASE"
 [core]
-	legacyheaders = false
+  autocrlf = input
+  legacyheaders = false
 [repack]
 	usedeltabaseoffset = true
 [alias]
