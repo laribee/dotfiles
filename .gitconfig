@@ -19,7 +19,18 @@
   changed = green
   untracked = cyan
 [merge]
-	tool = opendiff
+	tool = p4merge
+	keepBackup = false
+[mergetool "p4merge"]
+	cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+	keepTemporaries = false
+	trustExitCode = false
+	keepBackup = false
+[diff]
+  tool = p4diff
+[difftool "p4diff"]
+  prompt = false
+  cmd = p4merge "$LOCAL" "$BASE"
 [core]
 	legacyheaders = false
 [repack]
@@ -29,7 +40,7 @@
 	co = checkout
 	st = status
   ch = cherry -v origin
-  br = branch -a
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   mine = log --author=David
 [github]
 	user = laribee
@@ -38,6 +49,3 @@
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
 [push]
 	default = matching
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
