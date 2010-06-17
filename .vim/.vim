@@ -1,1 +1,0 @@
-/Users/laribee/work/config/.vim
