@@ -15,6 +15,8 @@ alias c="clear"
 alias b="cd -"
 alias h="cd ~"
 alias dir="ls -aF"
+alias x="logout"
+alias work="cd ~/work/"
 
 function gitdays {
   git log --author=laribee --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
