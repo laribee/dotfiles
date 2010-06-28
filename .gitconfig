@@ -37,12 +37,12 @@
 [repack]
 	usedeltabaseoffset = true
 [alias]
-	ci = commit
+	ci = commit -a --verbose
 	co = checkout
 	st = status
-  ch = cherry -v origin
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  mine = log --author=David
+	ch = cherry -v origin
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	mine = log --author=David
 [github]
 	user = laribee
 	token = 
