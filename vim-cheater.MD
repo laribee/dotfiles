@@ -14,6 +14,7 @@ R             - Enter insert mode, replacing characters rather than inserting.
 U             - Undo all changes on a line.  
 &gt;          - Indent.  
 &lt;          - Unindent.  
+I             - Move to first non-blank character of a line and go into insert mode.  
 
 ## Navigation
 
@@ -27,6 +28,11 @@ M             - Jump to middle of screen.
 L             - Jump to bottom of screen.  
 (             - Jump to beginning of sentence.  
 )             - Jump to end of sentence.  
+zt            - Scroll current line to top. 
+zb            - Scroll current line to bottom. 
+zz            - Scroll current line to middle. 
+;             - Repeat last movement. 
+,             - Repeat last movement backwards. 
 
 ## Macros
 
