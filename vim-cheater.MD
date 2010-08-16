@@ -31,10 +31,10 @@ L             - Jump to bottom of screen.
 zt            - Scroll current line to top. 
 zb            - Scroll current line to bottom. 
 zz            - Scroll current line to middle. 
-;             - Repeat last movement. 
-,             - Repeat last movement backwards. 
-#             - Find previous instance of current word. 
-*             - Find next instance of current word. 
+\;             - Repeat last movement. 
+\,             - Repeat last movement backwards. 
+\#             - Find previous instance of current word. 
+\*             - Find next instance of current word. 
 
 ## Macros
 
@@ -55,7 +55,7 @@ CTRL-W, q     - Close the current window.
 
 ## NERDTree
 
-:nt           - Open NERDTree.  
+\:nt           - Open NERDTree.  
 C             - Change tree root.  
 cd            - Change the CWD to the selected dir.  
 I             - Toggle display of hidden files.  

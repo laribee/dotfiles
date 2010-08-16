@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'rake'
 
+desc "create symlinks to config files"
 task :symlink do
   symlink
 end
