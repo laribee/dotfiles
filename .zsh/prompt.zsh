@@ -35,4 +35,14 @@ postexec() {
   set_running_app
 }
 
-export PS1='%{$reset_color$fg[gray]%}%1~%{$reset_color$bold_color$fg[green]%}%{$reset_color$fg[green]%}$(parse_git_branch)>%{$reset_color%} ' 
+# If I am using vi keys, I want to know what mode I'm currently using.
+# zle-keymap-select is executed every time KEYMAP changes.
+# From http://zshwiki.org/home/examples/zlewidgets
+function zle-keymap-select {
+    VIMODE="${${KEYMAP/vicmd/(vi)~}/(main|viins)/}"
+    zle reset-prompt
+}
+
+zle -N zle-keymap-select
+
+export PS1='%{$reset_color$fg[gray]%}%1~$VIMODE%{$reset_color$bold_color$fg[green]%}%{$reset_color$fg[green]%}$(parse_git_branch)>%{$reset_color%} '
