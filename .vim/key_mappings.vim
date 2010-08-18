@@ -56,10 +56,5 @@
   nmap <Left> zh
   nmap <Right> zl
 
-" Fuzzy Finder - \t to launch; \b just for buffers; cmd-enter to open selected file in new tab
-  nmap <Leader>t :FuzzyFinderTextMate<cr> 
-  nmap <Leader>b :FuzzyFinderBuffer<cr> 
-  nmap <Leader>f :ruby finder.rescan!<cr>
-  
 " Make NERDTree a bit easier to get into
-  cmap nt NERDTree<cr>
+  nmap <Leader>t :NERDTree<cr>
