@@ -16,6 +16,7 @@ U             - Undo all changes on a line.
 &lt;          - Unindent.  
 I             - Move to first non-blank character of a line and go into insert mode.  
 
+
 ## Navigation
 
 G             - Goto line [count], default last line, on the first non-blank character.  
