@@ -18,6 +18,8 @@ alias dir="ls -aF"
 alias x="logout"
 alias work="cd ~/work/"
 
+alias gs="git status"
+
 function gitdays {
   git log --author=laribee --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
 }
