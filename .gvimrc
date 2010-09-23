@@ -3,5 +3,9 @@
   set guioptions-=m
   set guifont=Inconsolata:h14
   set lines=30 columns=100
-" set fuoptions=maxvert,maxhorz,background:Normal
+
+  if exists('+fuoptions')						" Fullscreen options for MacVim.
+  	set fuoptions=maxvert,maxhorz,background:Normal
+  endif
+
   colors molokai 

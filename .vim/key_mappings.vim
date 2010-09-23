@@ -14,6 +14,8 @@
   nmap gh h
   nmap gl l
 
+  nmap gq ^Wq
+
 " swap windows
   nmap gS 
 

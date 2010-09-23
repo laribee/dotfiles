@@ -50,7 +50,7 @@ gh            - Place cursor on window to the right.
 gl            - Place cursor on window to the left.  
 gj            - Place cursor on window to the top.  
 gk            - Place cursor on window to the bottom.  
-CTRL-W, q     - Close the current window.  
+gq            - Close the current window.  
 \:[N]sp       - Open another (horizontal) viewport.  
 \:[N]vs       - Open another (vertical) viewport. 
 
