@@ -1,6 +1,6 @@
-# VIM Cheat Sheet
+# VIM Cheat Sheet #
 
-## File Manipulation
+# File Manipulation #
 
 \:e {path}     - Edit a file at {path}.  
 \:e!           - Edit the current file, discarding changes if they exist.  
@@ -56,7 +56,7 @@ gq            - Close the current window.
 
 ## NERDTree
 
-\:nt           - Open NERDTree.  
+<Leader>t     - Open NERDTree.  
 C             - Change tree root.  
 cd            - Change the CWD to the selected dir.  
 I             - Toggle display of hidden files.  
