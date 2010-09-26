@@ -18,6 +18,7 @@ alias dir="ls -aF"
 alias x="logout"
 alias work="cd ~/work/"
 
+alias git="git-achievements"
 alias gs="git status"
 
 function gitdays {
