@@ -38,6 +38,9 @@
 " show the `best match so far' as search strings are typed:
   set incsearch
 
+" highlight search results
+  set hlsearch
+
 " searching is case insensitive when all lowercase
   set ignorecase
   set smartcase

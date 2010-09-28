@@ -31,7 +31,7 @@
 
 " ack for project-wide searching
   nmap g/ :LAck 
-  let mapleader = ","
+" let mapleader = ","
 
   nmap g* :LAck <C-R><C-W> 
   nmap ga :LAckAdd 
@@ -62,3 +62,8 @@
 
 " Make NERDTree a bit easier to get into
   nmap <Leader>t :NERDTree<cr>
+
+" search for the word under the cursor
+  nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+" remove search hilighting
+  nmap <silent> <Leader>h :silent :nohlsearch<CR>  
