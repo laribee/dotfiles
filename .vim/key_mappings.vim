@@ -64,6 +64,6 @@
   nmap <Leader>t :NERDTree<cr>
 
 " search for the word under the cursor
-  nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+  nnoremap <Leader>r :%s/\<<C-r><C-w>\>/
 " remove search hilighting
   nmap <silent> <Leader>h :silent :nohlsearch<CR>  
