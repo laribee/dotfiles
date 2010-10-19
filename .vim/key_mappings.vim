@@ -1,3 +1,6 @@
+" remap leader to ,
+  let mapleader = ","
+
 " get out of insert mode with cmd-i
   imap <D-i> <Esc>
 
@@ -65,5 +68,6 @@
 
 " search for the word under the cursor
   nnoremap <Leader>r :%s/\<<C-r><C-w>\>/
+
 " remove search hilighting
   nmap <silent> <Leader>h :silent :nohlsearch<CR>  
