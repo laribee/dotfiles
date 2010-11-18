@@ -1,4 +1,8 @@
-  let NERDTreeShowHidden = 1
+ let NERDTreeShowHidden = 1
+
+"autopen NERDTree mirror when creating new tabs, focus cursor in new document
+ autocmd TabEnter * NERDTreeMirror
+ autocmd TabEnter * wincmd l
 
 " Markdown syntax highlighting
   augroup mkd
