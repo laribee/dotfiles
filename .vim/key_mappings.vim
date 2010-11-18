@@ -71,3 +71,11 @@
 
 " remove search hilighting
   nmap <silent> <Leader>h :silent :nohlsearch<CR>  
+
+" Bubble single lines (uses unimpaired.vim)
+  nmap <C-Up> [e
+  nmap <C-Down> ]e
+" Bubble multiple lines
+  vmap <C-Up> [egv
+  vmap <C-Down> ]egv
+

@@ -20,6 +20,7 @@ git_bundles = [
   "git://github.com/tsaleh/vim-tcomment.git",
   "git://github.com/vim-ruby/vim-ruby.git",
   "git://github.com/kchmck/vim-coffee-script.git",
+  "git://github.com/tpope/vim-unimpaired.git"
 ]
 
 vim_org_scripts = [
