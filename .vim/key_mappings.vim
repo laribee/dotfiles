@@ -34,7 +34,6 @@
 
 " ack for project-wide searching
   nmap g/ :LAck 
-" let mapleader = ","
 
   nmap g* :LAck <C-R><C-W> 
   nmap ga :LAckAdd 
