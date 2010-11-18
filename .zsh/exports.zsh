@@ -8,3 +8,4 @@ export JAVA_HOME='/System/Library/Frameworks/JavaVM.framework/Home'
 export TERM=xterm-color
 export CLICOLOR=1
 export PGOPTIONS='-c client_min_messages=WARNING'
+export NODE_PATH='/usr/local/bin/node'
