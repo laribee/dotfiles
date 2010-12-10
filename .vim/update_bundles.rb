@@ -20,7 +20,8 @@ git_bundles = [
   "git://github.com/tsaleh/vim-tcomment.git",
   "git://github.com/vim-ruby/vim-ruby.git",
   "git://github.com/kchmck/vim-coffee-script.git",
-  "git://github.com/tpope/vim-unimpaired.git"
+  "git://github.com/tpope/vim-unimpaired.git",
+  "git://github.com/laribee/vim-peepopen"
 ]
 
 vim_org_scripts = [
@@ -52,6 +53,6 @@ vim_org_scripts.each do |name, script_id, script_type|
   FileUtils.mkdir_p(File.dirname(local_file))
   File.open(local_file, "w") do |file|
     file << open("http://www.vim.org/scripts/download_script.php?src_id=#{script_id}").read
-  end
+ end
 end
 
