@@ -1,8 +1,8 @@
 # My aliases
-alias ss='./script/server'
-alias ss1='./script/server -p 3001'
-alias sc='./script/console'
-alias sg='./script/generate'
+alias ss='./script/rails server'
+alias ss1='./script/rails server -p 3001'
+alias sc='./script/rails console'
+alias sg='./script/rails generate'
 alias restart='touch tmp/restart.txt'
 alias ajaxrdoc="rdoc --fmt ajax --exclude '.*generator.*' --exclude '.*test.*' --exclude '.*spec.*'"
 alias devlog='tail -200 -f log/development.log'

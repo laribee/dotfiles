@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:~/Library/bin:Applications:$PATH
+export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:~/Library/bin:Applications:/usr/local/share/npm/bin/:$PATH
 export CDPATH=:~/projects
 export RUBYOPT='rubygems -Itest'
 export EDITOR="mvim"
