@@ -7,4 +7,4 @@
   syntax on
   
 " terminal-compatible colorscheme
-  colorscheme darkrobot 
+  colorscheme ir_black

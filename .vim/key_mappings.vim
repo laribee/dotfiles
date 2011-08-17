@@ -65,8 +65,6 @@
 " Make NERDTree a bit easier to use
   nmap <Leader>n :NERDTree<cr>
   nmap <Leader>f :NERDTreeFind<cr>
-  nmap <Leader>v :CommandT<cr>
-
 
 " search for the word under the cursor
   nnoremap <Leader>r :%s/\<<C-r><C-w>\>/
