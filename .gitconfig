@@ -50,4 +50,4 @@
 [diff "ruby"]
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
 [push]
-	default = matching
+	default = upstream
