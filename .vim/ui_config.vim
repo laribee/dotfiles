@@ -1,6 +1,6 @@
 " enable line numbers
   set number
-  setlocal numberwidth=3
+  setlocal numberwidth=2
 
 " These two enable syntax highlighting
   set nocompatible
