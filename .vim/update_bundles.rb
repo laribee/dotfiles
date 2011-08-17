@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 git_bundles = [ 
-  "git://github.com/astashov/vim-ruby-debugger.git",
   "git://github.com/msanders/snipmate.vim.git",
   "git://github.com/scrooloose/nerdtree.git",
   "git://github.com/timcharper/textile.vim.git",
@@ -21,12 +20,12 @@ git_bundles = [
   "git://github.com/vim-ruby/vim-ruby.git",
   "git://github.com/kchmck/vim-coffee-script.git",
   "git://github.com/tpope/vim-unimpaired.git",
-  "git://github.com/laribee/vim-peepopen"
+  "git://github.com/laribee/vim-peepopen",
+  "git://github.com/wincent/Command-T"
 ]
 
 vim_org_scripts = [
   ["IndexedSearch", "7062",  "plugin"],
-  ["gist",          "12732", "plugin"],
   ["jquery",        "12107", "syntax"],
 ]
 

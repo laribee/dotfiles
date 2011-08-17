@@ -62,8 +62,11 @@
   nmap <Left> zh
   nmap <Right> zl
 
-" Make NERDTree a bit easier to get into
-  nmap <Leader>t :NERDTree<cr>
+" Make NERDTree a bit easier to use
+  nmap <Leader>n :NERDTree<cr>
+  nmap <Leader>f :NERDTreeFind<cr>
+  nmap <Leader>v :CommandT<cr>
+
 
 " search for the word under the cursor
   nnoremap <Leader>r :%s/\<<C-r><C-w>\>/
