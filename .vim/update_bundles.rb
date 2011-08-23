@@ -21,7 +21,8 @@ git_bundles = [
   "git://github.com/kchmck/vim-coffee-script.git",
   "git://github.com/tpope/vim-unimpaired.git",
   "git://github.com/laribee/vim-peepopen",
-  "git://github.com/wincent/Command-T"
+  "git://github.com/wincent/Command-T",
+  "git://github.com/tpope/vim-endwise"
 ]
 
 vim_org_scripts = [

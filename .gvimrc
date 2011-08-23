@@ -8,4 +8,4 @@
   	set fuoptions=maxvert,maxhorz,background:Normal
   endif
 
-  colorscheme solarize
+  colorscheme molokai 
