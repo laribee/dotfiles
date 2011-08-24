@@ -7,4 +7,4 @@
   syntax on
   
 " terminal-compatible colorscheme
-  colorscheme ir_black
+  colorscheme molokai

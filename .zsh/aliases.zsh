@@ -21,15 +21,11 @@ alias work="cd ~/work/"
 alias gs="git status"
 alias gc="git commit -a"
 alias gcm="git commit -am"
+alias gp="git push"
 
 alias r="rails"
 alias g="git"
 
 function gitdays {
   git log --author=laribee --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
-}
-
-# accepts a css file and compacts the delcarations to one line
-function css_compact {
-  cat $@ | css2sass | sass -t compact > $@
 }

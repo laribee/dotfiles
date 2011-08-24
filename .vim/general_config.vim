@@ -29,7 +29,6 @@
   set tabstop=2
   set softtabstop=2 
   set shiftwidth=2
-
   set autoindent
   
 " Set to auto read when a file is changed from the outside
@@ -54,3 +53,8 @@
 " remember last position in file
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal g'\"" | endif
 
+" accordion effect for multiple panes
+  set winwidth=84
+  set winheight=5
+  set winminheight=5
+  set winheight=999
