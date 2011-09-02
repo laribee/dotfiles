@@ -1,8 +1,8 @@
 require 'rubygems'
-require 'wirble'
+require 'hirb'
 
-Wirble.init
-Wirble.colorize
+extend Hirb::Console
+Hirb::View.enable
 
 alias q exit
 
