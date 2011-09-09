@@ -1,7 +1,5 @@
 # vim: ft=ruby
 
-puts 'motherfucker!'
-
 # Prompt!
 Pry.config.prompt = proc do |_, level, pry| 
   tree = pry.binding_stack.map { |b| Pry.view_clip(b.eval("self")) }.join " / "

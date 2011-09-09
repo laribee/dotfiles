@@ -1,16 +1,11 @@
 # My aliases
 alias restart='touch tmp/restart.txt'
-alias ajaxrdoc="rdoc --fmt ajax --exclude '.*generator.*' --exclude '.*test.*' --exclude '.*spec.*'"
 alias devlog='tail -200 -f log/development.log'
 alias testlog='tail -200 -f log/test.log'
-alias gvim='mvim -p'
-alias rebase='git fetch; git rebase origin/master'
-alias extip='curl icanhazip.com'
 
 alias c="clear"
 alias b="cd -"
 alias h="cd ~"
-alias dir="ls -aF"
 alias x="logout"
 alias work="cd ~/work/"
 
