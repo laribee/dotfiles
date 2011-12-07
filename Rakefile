@@ -12,11 +12,6 @@ namespace :symlink do
   end
 end
 
-desc "update VIM plugins" 
-task :update_vim_bundles do
-  sh './.vim/update_bundles.rb'
-end
-
 desc "adjust for Windows"
 task :windows => 'symlink:force' do
 	system 'git config --global core.autocrlf true'

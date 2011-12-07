@@ -7,10 +7,6 @@
 " redo with U
   nmap U :redo<cr>
 
-" easy wrap toggling
-  nmap <Leader>w :set wrap<cr>
-  nmap <Leader>W :set nowrap<cr>
-
 " switch windows with g+movement
   nmap gj j
   nmap gk k
@@ -33,10 +29,10 @@
   nmap g] :bn<cr>
 
 " ack for project-wide searching
-  nmap g/ :LAck 
+  nmap g/ :LAck
 
-  nmap g* :LAck <C-R><C-W> 
-  nmap ga :LAckAdd 
+  nmap g* :LAck <C-R><C-W>
+  nmap ga :LAckAdd
   nmap gn :lnext<cr>
   nmap gp :lprev<cr>
 
@@ -70,7 +66,7 @@
   nnoremap <Leader>r :%s/\<<C-r><C-w>\>/
 
 " remove search hilighting
-  nmap <silent> <Leader>h :silent :nohlsearch<CR>  
+  nmap <silent> <Leader>h :silent :nohlsearch<CR>
 
 " Bubble single lines (uses unimpaired.vim)
   nmap <C-Up> [e

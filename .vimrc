@@ -1,7 +1,11 @@
-" filetype off 
+set nocompatible
+filetype off
 
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+set rtp+=~/.vim/vundle/
+call vundle#rc()
+runtime vundle.vim
+
+filetype plugin indent on
 
 runtime general_config.vim
 runtime ui_config.vim

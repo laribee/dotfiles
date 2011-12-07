@@ -16,8 +16,10 @@ alias gp="git push"
 
 alias r="rails"
 alias g="git"
+alias m="mvim"
+alias be="bundle exec"
 alias pryr="pry -r ./config/environment"
 
 function gitdays {
-  git log --author=laribee --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------" 
+  git log --author=laribee --reverse --since="$@ days ago" --pretty="format:%n%Cgreen%cd%n%n%s%n%b%n---------------------------------------------"
 }

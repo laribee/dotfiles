@@ -54,3 +54,5 @@
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
 [push]
 	default = upstream
+[init]
+	templatedir = ~/.git_template
