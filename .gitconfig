@@ -37,7 +37,7 @@
 [core]
   autocrlf = input
   legacyheaders = false
-  editor = vim 
+  editor = vim
 [repack]
 	usedeltabaseoffset = true
 [alias]
@@ -47,9 +47,11 @@
 	ch = cherry -v origin
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	mine = log --author=David
+  ribbon = tag --force _ribbon origin/master
+  catchup = log --patch --reverse --topo-order _ribbon..origin/master
 [github]
 	user = laribee
-	token = 
+	token =
 [diff "ruby"]
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
 [push]
