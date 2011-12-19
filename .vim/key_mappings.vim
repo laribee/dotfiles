@@ -60,7 +60,11 @@
 
 " Make NERDTree a bit easier to use
   nmap <Leader>n :NERDTree<cr>
-  nmap <Leader>f :NERDTreeFind<cr>
+
+" Make ctrlp.vim plugin easy to get to
+  nmap <Leader>f :CtrlP<cr>
+  nmap <Leader>m :CtrlPMRUFiles<cr>
+  nmap <Leader>c :CtrlPMRUFiles<cr>
 
 " search for the word under the cursor
   nnoremap <Leader>r :%s/\<<C-r><C-w>\>/
