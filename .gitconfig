@@ -39,7 +39,7 @@
   legacyheaders = false
   editor = vim
 [repack]
-	usedeltabaseoffset = true
+  usedeltabaseoffset = true
 [alias]
 	ci = commit -a --verbose
 	co = checkout
