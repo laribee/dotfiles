@@ -5,6 +5,9 @@
 " These two enable syntax highlighting
   set nocompatible
   syntax on
-  
+
+" 256 colors, TODO: detection/etc
+  set t_Co=256
+
 " terminal-compatible colorscheme
-  colorscheme molokai
+  colorscheme candy
