@@ -1,7 +1,7 @@
 --type-add=ruby=.haml,.rake,.rsel,.builder
 --type-add=html=.html.erb,.html.haml
---type-add=js=.js.erb
---type-add=css=.sass
+--type-add=js=.js.erb,.js,.coffee
+--type-add=css=.sass,.css,.less
 --type-set=cucumber=.feature
 
 --ignore-dir=vendor
@@ -12,6 +12,8 @@
 --ignore-dir=fixtures
 --ignore-dir=script
 --ignore-dir=system
+--ignore-dir=node_modules
+--ignore-dir=.git
 
 --sort-files
 --color
