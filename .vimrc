@@ -1,5 +1,5 @@
 set nocompatible
-filetype off
+filetype plugin off
 
 set rtp+=~/.vim/vundle/
 call vundle#rc()
@@ -11,5 +11,6 @@ runtime general_config.vim
 runtime ui_config.vim
 runtime plugin_config.vim
 runtime key_mappings.vim
+runtime rspec.vim
 
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P

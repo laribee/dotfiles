@@ -2,7 +2,7 @@
 
 " Set temporary directory (don't litter local dir with swp/tmp files)
   set directory=/tmp/
-  
+
   set shell=/bin/zsh
 " have one hundred lines of command-line (etc) history:
   set history=100
@@ -13,9 +13,9 @@
 " Highlight matching parens
   set showmatch
   set completeopt=menu,preview
-  
+
 " Use the tab complete menu
-  set wildmenu 
+  set wildmenu
   set wildmode=list:longest,full
 
 " have the mouse enabled all the time:
@@ -27,10 +27,10 @@
 " use indents of 2 spaces, and have them copied down lines:
   set expandtab
   set tabstop=2
-  set softtabstop=2 
+  set softtabstop=2
   set shiftwidth=2
   set autoindent
-  
+
 " Set to auto read when a file is changed from the outside
   set autoread
 
@@ -40,10 +40,16 @@
 " highlight search results
   set hlsearch
 
+" always show status line
+  set laststatus=2
+
+" unicode
+  set encoding=utf-8
+
 " searching is case insensitive when all lowercase
   set ignorecase
   set smartcase
- 
+
 " assume the /g flag on :s substitutions to replace all matches in a line:
   set gdefault
 
