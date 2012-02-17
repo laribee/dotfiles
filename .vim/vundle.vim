@@ -1,5 +1,5 @@
 Bundle 'msanders/snipmate.vim',
-Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdtree',
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'bbommarito/vim-slim'
