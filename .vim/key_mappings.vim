@@ -64,7 +64,7 @@
 " Make ctrlp.vim plugin easy to get to
   nmap <Leader>f :CtrlP<cr>
   nmap <Leader>m :CtrlPMRUFiles<cr>
-  nmap <Leader>c :CtrlPMRUFiles<cr>
+  nmap <Leader>b :CtrlPBuffer<cr>
 
 " search for the word under the cursor
   nnoremap <Leader>r :%s/\<<C-r><C-w>\>/

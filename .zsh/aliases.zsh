@@ -10,8 +10,9 @@ alias x="logout"
 alias work="cd ~/work/"
 
 alias gs="git status"
-alias gc="git commit -a"
-alias gcm="git commit -am"
+alias gc="git commit"
+alias gcm="git add -A . && git commit -am"
+alias gr="git pull --rebase"
 alias gp="git push"
 
 alias r="rails"
