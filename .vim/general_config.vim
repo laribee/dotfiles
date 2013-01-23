@@ -10,6 +10,10 @@
 " Show us the command we're typing
   set showcmd
 
+" Display important invisibles
+  set list
+  set listchars=tab:▸\ ,eol:¬
+
 " Highlight matching parens
   set showmatch
   set completeopt=menu,preview
