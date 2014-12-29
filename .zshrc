@@ -38,4 +38,4 @@ source ~/.zsh/aliases.zsh
 unsetopt auto_name_dirs
 
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"
